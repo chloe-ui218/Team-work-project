@@ -3,27 +3,73 @@
     <head>
         <title>Healing Habits Hub.</title>
         <style>
+            body{
+                background-color: #E8BDEA;
+                color: black;
+            }
             .main-container{
                 display: flex;
-                img src: 100px;
+            }
+            .img{
+                width: 100%;
+            }
+            .main-heading{
+                display: flex;
+                text-align: end;
+                padding: 5px 10px 5px 10px;   
+            }
+            .main-heading h2{
+                text-align: left;
+            }
+            .main-heading h1{
+                text-align: left;
+            }
+            .main-container{
+                border: 5px;
+            }
+            .container{
+                position: relative;
+            }
+            .text-block{
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                background-color: transparent;
+                color:  white;
+                padding-left: 20px;
+                padding-right: 20px;
+                align-content: end;
+            }
+            .main-heading #home{
+                text-align: justify;
+            }
+            .header{
+               display: flex;
+               gap: 10px;
+               justify-content: end;
+               margin: 2rem 2rem; 
             }
         </style>
     </head>
     <body>
-        <img src="./7738de9a7ef8ba9a91988fcfbc46c55b.jpg" height="100%" width="100%>
+        <header>
+           <nav class="w3-bar w3-bar">
+            <a href="#Home" class="w3-button w3-bar-item">Home</a>
+            <a href="About" class="w3-button w3-bar-item">About</a>
+            <a href="Help" class="w3-button w3-bar-item">Help</a>
+            <a href="Contact" class="w3-button w3-bar-item">contact</a>
+           </nav>
+        </header>
         <section class="main-heading"> 
-            <div>
-                <h1>Healing Habits</h1>
-                <p>Stress can be defined as any type of change that
-                     causes physical, emotional, or mental strain. 
-                     Stress is your body's response to anything that requires attention or action.
-                     Everyone experiences stress 
-                     to some degree. The way you respond to stress, however, makes a 
-                     big difference to your overall mental and 
-                     physical well-being.
-                    </p>
-                    <h2><h2>Live a life free of stress! 
-                        "Your calm mind is the ultimate weapon against you challenges."</h2></h2>
-            </div>
+            <div class="container">
+                <img src="./7738de9a7ef8ba9a91988fcfbc46c55b.jpg" alt="calm" style="width: 100%;">
+                <div class="text-block">
+                    <h4>"Live a life free of stress"</h4>
+                    <p>Stress can be defined as a state of worry or mental tension caused by a difficult situation. 
+                        Stress is a natural human response that prompts us to address challenges and threats in our lives. 
+                        Everyone experiences stress to some degree. 
+                        The way we respond to stress, however, makes a big difference to our overall well-being.</p>
+                </div>
+            </div>    
     </body>    
 </html>
